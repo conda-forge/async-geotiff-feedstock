@@ -1,5 +1,5 @@
 context:
-  version: "0.4.0"
+  version: "0.5.0"
   python_min: "3.11"
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/async-geotiff/async_geotiff-${{ version }}.tar.gz
-  sha256: 2386cc72e1e66cb36fdb296c6ef3100ba4c5e086950f0ce691f1a86d164fda7b
+  sha256: 6c51b7c2f6e92083431d81611cd12706178d65f17e204a48fa05566a2d3261cb
 
 build:
   noarch: python
